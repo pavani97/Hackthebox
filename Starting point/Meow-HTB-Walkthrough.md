@@ -36,8 +36,7 @@ Used to securely connect to the HackTheBox private environment.
 
 Confirm that the target is reachable.
 
-```bash
-ping <target-ip>
+
 ## Task 5  
 **Question:** What is the most common tool for finding open ports on a target?  
 **Answer:** `nmap`
@@ -52,27 +51,24 @@ Nmap is widely used for network exploration and enumeration. It helps identify o
 
 Perform a version scan to confirm:
 
-```bash
-nmap -sV <target-ip>
+
 The result shows port 23/tcp running Telnet, an outdated, unencrypted remote access protocol.
 ## Task 7  
 **Question:** Which username can log into the machine over Telnet with a blank password?  
 **Answer:** `root`
 
-Connect to the target using Telnet:
+Connect to the target using Telnet: telenet <ip>
 
-```bash
-telnet <target-ip>
+
 ## Task 8  
 **Question:** Submit the root flag
 
 After logging into the machine, list the files in the current directory:
-
-```bash
 ls
 You will see a file named flag.txt. Display its contents using:
 
 cat flag.txt
+
 Final Thoughts
 
 The Meow machine is a simple but valuable reminder of how insecure default configurations can expose an entire system. With open Telnet access and no password on the root account, the box highlights the importance of basic security hygiene. Completing this challenge builds confidence in enumeration, remote access, and identifying weak authentication setups.
