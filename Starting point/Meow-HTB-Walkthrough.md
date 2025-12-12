@@ -56,6 +56,7 @@ The result shows port 23/tcp running Telnet, an outdated, unencrypted remote acc
 ## Task 7  
 **Question:** Which username can log into the machine over Telnet with a blank password?  
 **Answer:** `root`
+![Step 2 Screenshot](task7.webp)
 
 Connect to the target using Telnet: `telenet <ip>`
 
