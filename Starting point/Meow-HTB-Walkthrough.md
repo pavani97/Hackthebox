@@ -57,14 +57,15 @@ The result shows port 23/tcp running Telnet, an outdated, unencrypted remote acc
 **Question:** Which username can log into the machine over Telnet with a blank password?  
 **Answer:** `root`
 
-Connect to the target using Telnet: telenet <ip>
+Connect to the target using Telnet: `telenet <ip>`
 
 
 ## Task 8  
 **Question:** Submit the root flag
 
 After logging into the machine, list the files in the current directory:
-ls
+`ls`
+
 You will see a file named flag.txt. Display its contents using:
 
 cat flag.txt
