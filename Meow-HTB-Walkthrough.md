@@ -62,10 +62,13 @@ The result shows port 23/tcp running Telnet, an outdated, unencrypted remote acc
 
 Connect to the target using Telnet: `telenet <ip>`
 
+![Step 2 Screenshot](assests/task71.jpg)
+![Step 2 Screenshot](assests/task78.jpg)
 
 ## Task 8  
 **Question:** Submit the root flag
 
+![Step 2 Screenshot](assests/task8.jpg)
 After logging into the machine, list the files in the current directory:
 `ls`
 
